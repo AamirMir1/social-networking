@@ -1,0 +1,5 @@
+.CommentsCard {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+}

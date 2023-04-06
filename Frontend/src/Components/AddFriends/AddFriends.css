@@ -1,0 +1,21 @@
+.AddFriends {
+    display: grid;
+    grid-template-columns: 1fr 450px 1fr;
+    height: 100vh;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.friends-to-add {
+    background-color: white;
+    overflow: scroll;
+}
+
+@media screen and (max-width: 800px) {
+    .AddFriends {
+        display: block;
+        grid-template-columns: 1fr;
+        background-color: white;
+        height: 100vh;
+    }
+}

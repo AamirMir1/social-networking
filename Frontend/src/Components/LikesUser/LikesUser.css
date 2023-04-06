@@ -1,0 +1,39 @@
+.LikesUser {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 20px;
+}
+
+.LikesUserContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.LikesUser button a {
+    color: white;
+}
+
+button span {
+    color: red;
+}
+
+.LikesUserContainer a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 420px) {
+    .LikesUser button a {
+        font-size: 8px;
+    }
+
+    a {
+        font-size: 12px;
+        height: fit-content;
+    }
+
+    .LikesUser {
+        padding: 10px 5px 10px 5px;
+
+    }
+}

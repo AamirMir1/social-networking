@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+}
+
+nav svg {
+    border-radius: 100%;
+}
+
+header {
+    width: 100vw;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    box-shadow: 6px 6px 6px 0.9px rgb(213, 213, 213);
+    z-index: 11;
+}

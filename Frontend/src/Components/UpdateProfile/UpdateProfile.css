@@ -1,0 +1,45 @@
+.UpdateProfile {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controllers {
+    display: block;
+    margin: 20px auto;
+    padding: 4px 6px;
+    font-size: 17px;
+    border-radius: 9px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.update-profile-form {
+    background: linear-gradient(to right, rgb(38, 102, 231), rgb(144, 181, 255));
+    width: 400px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.update-password-form {
+    width: 400px;
+    height: 300px;
+}
+
+.change-profile {
+    text-align: center;
+    padding: 10px 10px;
+    display: flex;
+    width: 200px;
+    margin: 14px auto;
+    justify-content: center;
+    border-radius: 19px;
+    cursor: pointer;
+    align-items: center;
+    background-color: white;
+    color: gray;
+}

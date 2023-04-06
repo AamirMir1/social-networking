@@ -1,0 +1,85 @@
+.Account {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.left-content-details {
+    padding-top: 80px;
+}
+
+.left-content-details button {
+    width: 250px;
+    background-color: #1976d2;
+}
+
+.right-user-posts {
+    width: 100%;
+    padding-top: 40px;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left-content-details {
+    border-right: 1px solid rgb(197, 197, 197);
+}
+
+.AboutLogout {
+    padding: 30px;
+}
+
+.Friends {
+    padding: 20px;
+}
+
+.profile-menu {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .Account {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .right-user-posts {
+        height: 100vh;
+    }
+}
+
+.profile-menu {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    z-index: 100;
+}
+
+.profile-menu {
+    display: none;
+}
+
+
+@media screen and (max-width: 800px) {
+    .profile-menu {
+        display: block;
+    }
+
+    .left-content-details {
+        position: relative;
+        z-index: 1;
+        width: auto;
+        background-color: #e0e0e0;
+        right: 105%;
+        transition: position 0.5s;
+        padding-top: 130px;
+    }
+
+    .right-user-posts {
+        position: absolute;
+    }
+}
